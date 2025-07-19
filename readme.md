@@ -46,18 +46,18 @@ Users can log in with OTP via email, generate unique API keys, and access an int
 
 Create a `.env` file in the root with the following:
 
-    ```bash
-    GMAIL_EMAIL=your-email@gmail.com
-    GMAIL_APP_PASSWORD=your-app-password
-    GEMINI_API_KEY=your-gemini-key
-    ENVIRONMENT=dev
-    ```
+```bash
+GMAIL_EMAIL=your-email@gmail.com
+GMAIL_APP_PASSWORD=your-app-password
+GEMINI_API_KEY=your-gemini-key
+ENVIRONMENT=dev
+```
 📝 Note: If your Gmail has 2FA enabled, `create an App Password`.
 
 **4. 🖥️ Launch the Frontend**
 
 ```bash
-    streamlit run app.py
+streamlit run app.py
 ```
 
 This opens the ThinkyBot Auth Portal in your browser.
@@ -76,7 +76,7 @@ This opens the ThinkyBot Auth Portal in your browser.
 Once logged in and with an API key:
 
 ```bash
-    python client.py
+python client.py
 ```
 
 Or call the API directly:
@@ -84,11 +84,11 @@ Or call the API directly:
 POST `/chat`
 
 ```bash
-    {
-    "prompt": "Tell me a joke about AI and pizza",
-    "email": "you@example.com",
-    "api_key": "sk-user-abc123..."
-    }
+{
+"prompt": "Tell me a joke about AI and pizza",
+"email": "you@example.com",
+"api_key": "sk-user-abc123..."
+}
 ```
 
 ## 📌 Notes
