@@ -90,6 +90,7 @@ POST `/chat`
 "api_key": "sk-user-abc123..."
 }
 ```
+---
 
 ## 📌 Notes
 
@@ -100,6 +101,8 @@ POST `/chat`
 - All usage will be stored in a local `SQLite DB` (users.db)
 
 - You can expand support to more domains by editing `SUPPORTED_DOMAINS `in `config.py`
+
+---
 
 ## 📸 Preview
 ![](pre/authpanel.png)

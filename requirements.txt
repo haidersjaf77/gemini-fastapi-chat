@@ -1,0 +1,19 @@
+# Core
+streamlit==1.35.0
+fastapi==0.111.0
+uvicorn==0.30.0
+
+# Email + Auth
+python-dotenv==1.0.1
+smtplib3==1.0.4
+email-validator==2.1.1
+
+# Google Gemini
+google-generativeai==0.5.4
+
+# Data
+pydantic==2.7.1
+sqlite3-binary==3.39.4
+
+# HTTP (client)
+requests==2.32.2
