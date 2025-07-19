@@ -43,6 +43,7 @@ Users can log in with OTP via email, generate unique API keys, and access an int
    ```
 
 3. **🔧 .env Configuration**
+
 Create a `.env` file in the root with the following:
 
     ```bash
@@ -55,9 +56,9 @@ Create a `.env` file in the root with the following:
 
 **4. 🖥️ Launch the Frontend**
 
-    ```bash
+```bash
     streamlit run app.py
-    ```
+```
 
 This opens the ThinkyBot Auth Portal in your browser.
 
@@ -71,23 +72,24 @@ This opens the ThinkyBot Auth Portal in your browser.
 - 🗑️ Delete any keys you no longer need
 
 **7. 💬 Test the Chatbot**
+
 Once logged in and with an API key:
 
-    ```bash
+```bash
     python client.py
-    ```
+```
 
 Or call the API directly:
 
 POST `/chat`
 
-    ```bash
+```bash
     {
     "prompt": "Tell me a joke about AI and pizza",
     "email": "you@example.com",
     "api_key": "sk-user-abc123..."
     }
-    ```
+```
 
 ## 📌 Notes
 
