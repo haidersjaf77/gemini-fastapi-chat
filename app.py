@@ -7,7 +7,6 @@ from backend import create_api_keys_table_if_not_exists, create_api_key, delete_
 
 st.set_page_config(page_title="ThinkyBot Auth Portal", layout="centered")
 
-# --- Neon Hacker Theme + Dark Mode Toggle ---
 toggle = st.sidebar.toggle("🌙 Dark Mode", value=True)
 background = "#000814" if toggle else "#f7f9fc"
 text_color = "#00bfff" if toggle else "#111"
